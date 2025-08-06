@@ -1,0 +1,13 @@
+train: C:\Users\ai\Desktop\object_detection\vscode_dev\object_detection\datasets\train\images
+val: C:\Users\ai\Desktop\object_detection\vscode_dev\object_detection\datasets\train\images
+test: C:\Users\ai\Desktop\object_detection\vscode_dev\object_detection\datasets\test\images
+
+nc: 1
+names: ['chicken']
+
+roboflow:
+  workspace: 250401chicken
+  project: chicken-qlrlr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/250401chicken/chicken-qlrlr/dataset/1
